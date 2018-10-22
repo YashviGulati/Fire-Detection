@@ -11,7 +11,7 @@ while True:
     #Read(): Grabs, decodes and returns the next video frame. 
     #If no frames has been grabbed (camera has been disconnected, 
     #or there are no more frames in video file), 
-    #the methods (ret) return false and the functions return NULL pointer.
+    #the methods (boolval) return false and the functions return NULL pointer.
 
 
     blur = cv2.GaussianBlur(frame, (21, 21), 0) #Blurs an image using a Gaussian filter. 
